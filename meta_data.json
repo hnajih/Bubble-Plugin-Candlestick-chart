@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "chart",
+        "1": "analytics",
+        "2": "data (things)",
+        "3": "productivity",
+        "4": "mobile"
+    },
+    "data_tracked": false,
+    "demo_page": "https://apex-charts-79431.bubbleapps.io/version-test/candlestick?debug_mode=true",
+    "description": "customizable candlestick charts with advanced features for your application\n\nApexCharts is a modern charting library that helps developers to create beautiful and interactive visualizations for web pages\n\nCandlestick Chart ApexCharts\n\nDemo https://apex-charts-79431.bubbleapps.io/version-test/candlestick?debug_mode=true\n",
+    "image": "//meta-q.cdn.bubble.io/f1724767348212x727219397928803600/Animation%20-%201724766637513.gif",
+    "license": "open_source",
+    "name": "Candlestick chart"
+}

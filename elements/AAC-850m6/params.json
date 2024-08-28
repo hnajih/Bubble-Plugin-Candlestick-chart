@@ -1,0 +1,116 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": false,
+    "can_fit_width": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 240,
+        "width": 400
+    },
+    "display": "Candlestick chart",
+    "fields": {
+        "AAG": {
+            "caption": "Series data x",
+            "doc": "series x values (timestamp)",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_data_x",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAJ": {
+            "caption": "Title",
+            "default_val": "chart title",
+            "doc": "Text to display as a title of chart",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Title alignment",
+            "default_val": "left",
+            "doc": " Alignment of title relative to chart area. ",
+            "editor": "Dropdown",
+            "name": "title_alignment",
+            "options": "left,center,right",
+            "rank": 1
+        },
+        "AAa": {
+            "caption": "No data text",
+            "default_val": "no data",
+            "doc": " The text to display when no-data is available. Defaults to undefined which displays nothing.",
+            "editor": "StaticText",
+            "in_style": true,
+            "name": "no_data_text",
+            "rank": 6
+        },
+        "AAb": {
+            "caption": "Dark mode",
+            "default_val": false,
+            "doc": "Enable dark mode",
+            "editor": "DynamicValue",
+            "name": "dark_mode",
+            "rank": 7,
+            "value": "boolean"
+        },
+        "AAc": {
+            "caption": "Tooltip enabled",
+            "default_val": true,
+            "doc": " Show tooltip when user hovers over chart area.",
+            "editor": "Checkbox",
+            "name": "tooltip_enabled",
+            "rank": 8
+        },
+        "AAf": {
+            "caption": "Downloading enabled",
+            "default_val": false,
+            "doc": " Display the toolbar / menu in the top right corner.",
+            "editor": "DynamicValue",
+            "name": "downloading_enabled",
+            "rank": 9,
+            "value": "boolean"
+        },
+        "ABH": {
+            "caption": "Series data y",
+            "doc": "Series y values separated by comma.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_data_y",
+            "rank": 3,
+            "value": "text"
+        },
+        "ABJ": {
+            "caption": "Upward color",
+            "default_val": "rgba(0, 183, 70, 1)",
+            "doc": " Color for the upward candle when the value/price closed above where it opened. Usually, a green color is used for this upward candle.",
+            "editor": "Color",
+            "name": "upward_color",
+            "optional": true,
+            "rank": 4
+        },
+        "ABK": {
+            "caption": "Downward color",
+            "default_val": "rgba(239, 64, 60, 1)",
+            "doc": " Color for the downward candle when the value/price closed below where it opened. Usually, a red color is used for this downward candle.",
+            "editor": "Color",
+            "name": "downward_color",
+            "rank": 5
+        },
+        "ABL": {
+            "caption": "Zoomable",
+            "default_val": false,
+            "doc": "To allow zooming in axis charts.",
+            "editor": "Checkbox",
+            "name": "zoomable",
+            "rank": 10
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-ios-pulse-strong",
+    "property_applications": {
+        "Font": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}

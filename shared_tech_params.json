@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "ABI": {
+            "name": "candlestick",
+            "url": "//meta-q.cdn.bubble.io/f1724768904580x198093682126372350/fc3noor2%282%29.svg"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    }
+}
